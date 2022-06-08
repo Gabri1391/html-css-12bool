@@ -1,21 +1,38 @@
 
 .row > [class^="col"]{
     background-color: #006CFA;
-    height: 40px;
     border: 1px solid #fff;
     color: #fff;
     text-align: center;
-    line-height: 40px;
 }
 
 .row .row > [class^="col"]{
     background-color: lightgreen;
     color: #fff;
     border: none;
-    padding: 5px 10px;
 }
 
-
+/* Utils */
 .mt50{
     margin-top: 50px;
+}
+
+.h-80{
+    height: 80px;
+    line-height: 80px;
+}
+
+.nested{
+    background-color: lightgreen;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #006FCA;
+}
+
+.h-160{
+    height: 160px;
+}
+
+.row .row > [class^="col"] .bg-white{
+    background-color: #fff;
 }
