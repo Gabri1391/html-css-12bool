@@ -1,9 +1,17 @@
-.row{
-    border: 2px dashed red;
-}
 
 .row > [class^="col"]{
     background-color: #006CFA;
-    min-height: 80px;
+    height: 40px;
     border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+}
+
+.row .row > [class^="col"]{
+    background-color: lightgreen;
+    color: #fff;
+}
+
+.mt50{
+    margin-top: 50px;
 }

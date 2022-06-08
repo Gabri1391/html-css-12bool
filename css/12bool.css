@@ -68,8 +68,8 @@
 }
 
 .row > .col-4{
-    flex-basis: 25%;
-    max-width: 25%;
+    flex-basis: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
 }
 
 .row > .col-3{
@@ -83,6 +83,61 @@
 }
 
 .row > .col-1{
-    flex-basis: calc(100% / 12 * 1);
-    max-width: calc(100% / 12 * 1);
+    flex-basis: calc(100% / 12);
+    max-width: calc(100% / 12);
 }
+
+/* FLEXBOX MODE */
+
+/* Justify-content */
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-baseline{
+    justify-content: baseline;
+}
+
+/* Align-items */
+
+.align-center{
+    align-items: center;
+}
+
+.align-stretch{
+    align-items:stretch;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-baseline{
+    align-items: baseline;
+}
+
+
