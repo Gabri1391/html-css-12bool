@@ -4,13 +4,17 @@
     height: 40px;
     border: 1px solid #fff;
     color: #fff;
-    display: flex;
+    text-align: center;
+    line-height: 40px;
 }
 
 .row .row > [class^="col"]{
     background-color: lightgreen;
     color: #fff;
+    border: none;
+    padding: 5px 10px;
 }
+
 
 .mt50{
     margin-top: 50px;
